@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json" />
+    <title>Document</title>
+</head>
+<body>
+    <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_kcosxgdt.json"  background="transparent" id="loader" speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <div class="container1" id="contain1">
+        <center>
+        <div class="web_name">
+            <h2>weather gossip</h2>
+        </div>
+        <div class="search">
+            <form action="">
+            <input type="text" placeholder="search city" class="searchinput" id="askcity">
+            <button class="btnsub" id="submitbtn"  onclick="value1()">Search</button>
+            </form>
+        </div>
+        </center>
+         
+        <center>
+            <!-- <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_kcosxgdt.json"  background="transparent" id="loader" speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> -->
+      
+            <div class="weatherTime">
+        
+    
+        <h1 class="temp"> <span id="tempid"></span></h1>
+        <!-- <div class="weatherTime"></div> -->
+            <h1 class="cityName" id="namecity"></h1>
+            <div class="timeNdate">
+                <span class="time" id="timeid"></span>
+                <span class="day" id="dayid">Monday </span>
+                <span id="month">sep</span>
+                <span id="date">19</span>
+            </div>
+            <div class="image">
+                <img src="" alt="" srcset="" id="imgicon">
+                <span class="condition" id="cloud"></span>
+                <br />
+                <span class="condition" id="humidity"> </span>
+                <span class="condition" id="pressure"> </span>
+                <span class="condition" id="wind"> </span>
+            </div>
+            
+        </div>
+    </center>
+        <!-- <div class="search">
+            <form action="">
+            <input type="text" placeholder="search city">
+            <button type="submit">Search</button>
+            </form>
+        </div> -->
+
+
+
+
+
+
+    
+    </div>
+    
+
+
+
+
+
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
