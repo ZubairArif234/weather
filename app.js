@@ -99,10 +99,10 @@ function value1 (){
            }else if(clouded.toLocaleLowerCase() == "strom"){
             image.src = "assets/strom.png";
             contain1.style.backgroundImage = "url('assets/rainroad.jpg')"
-           }else if(clouded.toLocaleLowerCase() == "dry"){
+           }else if(clouded.toLocaleLowerCase() == "dust"){
             image.src = "assets/dry.png"
             contain1.style.backgroundImage = "url('assets/sunnyblow.jpg')"
-           }else if(clouded.toLocaleLowerCase() == "dust"){
+           }else if(clouded.toLocaleLowerCase() == "haze"){
             image.src = "assets/dust.png";
             contain1.style.backgroundImage = "url('assets/dustblow.avif')"
            }
